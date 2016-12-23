@@ -8,11 +8,9 @@
 import random
 
 def main():
-
-    x = random.randint(9, 100)
-    y = random.randint(9, 100)
-
     while True:
+        x = random.randint(9, 100)
+        y = random.randint(9, 100)
         selection = input("Type \'END\' or \'I QUIT\' to stop being asked questions. Otherwise, push ENTER to continue.: ")
         if selection in {"END", "I QUIT"}:
             print("Way to take the easy way out. It's only simple math!")
@@ -40,6 +38,8 @@ def main():
                 print("You got the right answer!")
             else:
                 print("Learn how to add idiot.")
+
+
 
 '''
 def start_selection():

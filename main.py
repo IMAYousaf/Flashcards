@@ -48,5 +48,5 @@ def start_selection():
     print("Enter 2 if you want numbers between 1 and 100.")
     #difficulty = input("Please enter your desired difficulty: ")
 '''
-while True:
-    main()
+
+main()
